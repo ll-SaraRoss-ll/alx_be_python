@@ -28,7 +28,7 @@ class TestSimpleCalculator(unittest.TestCase):
         self.assertEqual(self.calc.multiply(-3, 7), -21)
         self.assertAlmostEqual(self.calc.multiply(2.5, 4), 10.0)
 
-    def test_division_normal(self):
+    def test_division(self):
         """Test divide under normal conditions."""
         self.assertEqual(self.calc.divide(10, 2), 5)
         self.assertAlmostEqual(self.calc.divide(7, 2), 3.5)
